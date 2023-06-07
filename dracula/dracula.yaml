@@ -1,0 +1,20 @@
+metadata:
+  keywords:
+    - 'Dracula theme'
+
+pdf-engine: xelatex
+highlight-style: /home/mroik/skincare/dracula/dracula.theme
+
+variables:
+  geometry:  margin=1in
+  linkcolor: draculapink
+  filecolor: draculagreen
+  citecolor: draculapurple
+  urlcolor:  draculacyan
+  toccolor:  draculaorange
+  header-includes:
+    - \usepackage{/home/mroik/skincare/dracula/draculatheme}
+    - \usepackage{fancyhdr}
+    - \pagestyle{fancy}
+    - \fancyfoot[CO,CE]{\thepage}
+    - \fancyfoot[LE,RO]{https://github.com/regdude/skincare}
